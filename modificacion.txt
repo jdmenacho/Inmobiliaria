@@ -1,0 +1,13 @@
+.....modificaciones hechas.....
+----Formulario de edicion de usuario---
+	- creacion de un archivo java script
+	- el archivo crea los campos de contraseña y verificar contraseña
+---Control de acceso a las diferentes paginas----
+	- lista_usuarios.php
+	- lista_inmuebles.php
+	- eliminar_usuario.php
+	- eliminar_inmueble.php
+	- edicion_usuario.php
+	- edicion_inmueble.php
+----edicion menu despegable de usuario---
+	- el administrador tiene dos opciones mas de gestion que el resto de usuario.

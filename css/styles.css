@@ -1,0 +1,650 @@
+@font-face {
+    font-family: inmAdam;
+    src: url(../fonts/adam.ttf);
+}
+
+body {
+  padding-top: 80px;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: inmAdam;
+}
+
+#navbar-user-dropdown li a {
+  color: #000 !important;
+}
+
+.icono-titulo {
+    height: 1em;
+    margin: -7px 10px 0 0;
+}
+
+.imagen-nosotros {
+  margin-top: 20px;
+  padding: 0;
+}
+
+.imagen-nosotros img {
+  border-radius: 100%;
+  padding: 0 15px;
+}
+
+.datos-nosotros {
+	position: absolute;
+  opacity: 0;
+	top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+	background-color: rgba(0,0,0,0.5);
+	color: #fff;
+  border-radius: 100%;
+  margin: 0 15px;
+}
+
+.datos-nosotros:hover {
+  opacity: 1;
+}
+
+.texto-nosotros {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.texto-nosotros h4 {
+  line-height: 20px;
+  font-weight: bolder;
+  font-family: inmAdam;
+}
+
+.texto-nosotros a {
+  color: #fff;
+}
+
+#inmuebles-destacados {
+  margin-bottom: 50px;
+}
+
+.titulo-resumen-inmueble a {
+  color: #000;
+  font-weight: bold;
+}
+
+.imagen-resumen-inmueble {
+    padding: 0;
+    width: 100%;
+}
+
+.precio-resumen-inmueble {
+    position:absolute;
+    right: 15px;
+    background-color: #DC143C;
+}
+
+.precio-resumen-inmueble h4 {
+  color: #fff;
+  font-weight: bold;
+  font-family: Arial;
+  margin: 5px 5px;
+}
+
+.resumen-inmueble ul {
+  list-style-type: none;
+}
+
+#logo-sobre {
+  float: left;
+  margin: 0 20px 10px 0;
+  width: 250px;
+}
+
+#paginacion {
+  text-align: center;
+}
+
+/* MASTER */
+
+#navbar-inm {
+  height: 80px;
+  box-shadow: 0px 6px 16px #555;
+  border: none;
+  background-color: #9c075c;
+}
+
+#navbar-inm .navbar-header {
+
+}
+
+#navbar-inm .navbar-collapse {
+  background-color: #9c075c;
+  text-align: center;
+}
+
+#navbar-inm .navbar-toggle {
+  background-color: #fff;
+  margin-top: 35px;
+}
+
+#navbar-inm .navbar-brand .logo {
+  max-height: 50px;
+}
+
+#navbar-inm .navbar-right {
+  margin: 15px 20px 0 0;
+}
+
+#navbar-inm .navbar-right > li {
+  top: 25%;
+  height: 50px;
+  font-family: inmAdam;
+}
+
+#navbar-inm li > a {
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+#navbar-inm .navbar-right .dropdown-toggle {
+  padding: 9px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-left: 30px;
+}
+
+#navbar-inm .user-drop, .logo {
+  max-height: 30px;
+}
+
+#navbar-inm .navbar-right .dropdown-menu {
+  min-width: 270px;
+  padding: 15px;
+}
+
+#navbar-inm .navbar-right .dropdown-menu .btn {
+  margin-bottom: 10px;
+}
+
+.carousel-inner>.item>img {
+  height: 400px;
+}
+
+#slider-search {
+  position: absolute;
+  top: 175px;
+  left: 50px;
+  background-color: rgb(133, 13, 91);
+  width: 600px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px #333;
+}
+
+#slider-search form {
+  padding: 25px 0;
+}
+
+#slider-search-localizacion, #slider-search select {
+  margin-bottom: 10px;
+}
+
+#slider-search input, #slider-search select {
+  width: 100%;
+}
+
+#slider-search .btn {
+  margin-top: 10px;
+}
+
+ .titulo-pagina {
+  background-color: #00444f;
+  height: 60px;
+  text-align: center;
+  padding: 1px 0;
+  margin: -100px 0 0 0;
+  color: #fff;
+  font-family: inmAdam;
+  clear: both;
+}
+
+.titulo-pagina .btn {
+  margin: 12px 0 0 20px;
+  float: left;
+  font-weight: bold;
+}
+
+.titulo-pagina h2 {
+  margin-top: 12px;
+}
+
+#redes-sociales {
+    display: inline-block;
+    margin-top: 15px;
+    margin-right: 20px;
+    float: right;
+}
+
+#redes-sociales a, #redes-sociales img {
+  display: inline;
+  margin-left: 5px;
+}
+
+#redes-sociales img:hover, #navbar-inm .navbar-right .dropdown-toggle:hover, .sociales-img:hover {
+  box-shadow: 0 0 20px #ddd;
+}
+
+.foot {
+	padding: 10px;
+	font-size: 12px;
+	background-color: #23282d;
+	margin-top: 0;
+	color: #ddd;
+  box-shadow: 0px -6px 16px #555
+}
+
+.foot-col {
+	padding: 0 40px;
+}
+
+.foot h3 {
+	margin-bottom: 30px;
+}
+
+.foot-logo {
+	max-width: 100%;
+}
+
+.foot a {
+	color: #ddd;
+}
+
+.foot .sociales-img {
+	width: 50px;
+	height: auto;
+	margin: 0 15px 15px 0;
+}
+
+.foot .copy {
+	text-align: center;
+}
+
+.foot .linea {
+	width: 100%;
+	height: 1px;
+	background-color: rgba(105, 105, 105, 0.5);
+	margin: 10px 0;
+}
+
+/* /MASTER */
+/* MAIN */
+
+#main {
+	background-image: url(../img/bg.png);
+	background-position: left bottom;
+	background-color: #d9e5ec;
+	background-repeat: no-repeat;
+	padding: 40px 0 50px 0;
+	background-size: 100%;
+}
+
+/* #main > .container {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 10px 10px 20px #000;
+} */
+
+.contenido-main {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 10px 10px 20px #000;
+  padding: 15px;
+}
+
+/* /MAIN */
+/* PRODUCTO */
+
+.titulo-descripcion-producto {
+	display: inline-block;
+	float: left;
+	margin-left: 10px;
+}
+
+.precio-producto {
+	display: inline-block;
+	float: right;
+	margin-right: 10px;
+}
+
+.descripcion-producto {
+	margin: 10px;
+}
+
+.caracteristicas-producto {
+	margin: 10px;
+}
+
+.ubicacion-producto {
+	margin: 10px;
+}
+.ubicacion-producto img {
+	width: 500px;
+}
+
+.boton-producto {
+	margin: 10px;
+	padding-bottom: 0;
+}
+
+#slider-producto{
+	max-width: 400px;
+	height: 300px;
+	float: right;
+}
+
+#slider-producto img{
+	width: 400px;
+	height: 300px;
+	float: right;
+}
+
+.descripcion-producto{
+	float: left;
+}
+
+.descripcion-producto h3{
+	margin-top: 0;
+}
+
+/* /PRODUCTO */
+/* FORMULARIOS */
+
+.pag-registro #titulo_registro {
+  color: #fff;
+  margin-top: 0;
+}
+
+#formulario-registro-inicio h1 {
+  margin-top: 0;
+}
+
+.pag-contacto .contenido-main, .pag-registro .contenido-main, .pag-publicar .contenido-main, .pag-nueva-blog .contenido-main, .pag-editar-inmueble .contenido-main,
+.pag-editar-inmuebe .contenido-main, .pag-registro .contenido-main {
+  padding: 0;
+}
+
+#formulario-registro-inicio {
+  padding: 30px 35px 20px 20px;
+}
+
+.col-formulario {
+  background-color: #00444f;
+  padding: 30px;
+  border-radius: 5px 0 0 5px;
+}
+
+#formulario-publicar .btn, #formulario-registro .btn, #formulario-contacto .btn, #formulario-registro-inicio .btn {
+	background-color: #da0080;
+	border: none;
+}
+
+#formulario-registro, #formulario-contacto, #formulario-editar-inmueble, #formulario-editar-usuario {
+	color: #fff;
+}
+
+/* /FORMULARIOS */
+/* PUBLICAR */
+
+.pag-publicar #formulario-publicar h1 {
+	color: #fff;
+  text-align: center;
+  margin-top: 0;
+}
+
+#formulario-publicar input, #formulario-publicar select {
+  width: 100%;
+  height: 34px;
+}
+
+#extras-publicar {
+  margin: 0 15px 15px 15px;
+  background-color: #fff;
+}
+
+#formulario-publicar .checkbox {
+  text-align: left;
+}
+
+#formulario-publicar .checkbox input {
+  height: 15px;
+  width: 15px;
+}
+
+#descripcion-publicar {
+  width: 100%;
+  background-color: #fff;
+}
+
+#imagenes-publicar input {
+	color: #fff;
+  margin-bottom: 20px;
+}
+
+/* /PUBLICAR */
+/* REGISTRO */
+
+/* .imagen-registro{
+	border-radius: 40px 40px 40px 40px;
+  max-width: 100%;
+	box-shadow: 0px 6px 16px #555;
+	border: none;
+} */
+
+#imagen-registro {
+  max-width: 100%;
+}
+
+#formulario-registro label {
+  color: #fff;
+}
+
+#logo-registro, #logo-contacto {
+  display: block;
+	max-width: 100%;
+	margin: 0 auto;
+  max-height: 250px;
+}
+
+/* /REGISTRO */
+/* CONTACTO */
+
+#mapa-contacto, .foot-map {
+	width: 100%;
+	height: 200px;
+}
+
+#mapa-inmueble {
+  width: 100%;
+  height: 400px;
+}
+
+/* /CONTACTO */
+
+@media (max-width: 991px) {
+  .titulo-pagina {
+    margin: 0 0 40px 0 !important;
+  }
+
+  #slider-search {
+    top: 0;
+  }
+
+  #slider-search form {
+    width: 100%;
+    border-radius: 0;
+    background-color: #da0080;
+  }
+
+  #navbar-inm li > a {
+    font-size: 0.85em;
+    padding: 10px 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  #slider-search form .btn {
+    width: 100%;
+  }
+}
+
+/* BLOG */
+
+
+
+.blog-page .blog-post {
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background-color: #efefef;
+  box-shadow: 4px 4px 8px #aaa;
+}
+
+.blog-page .blog-post-img {
+  max-width: 350px;
+  float: left;
+  margin: 0 20px 20px 0;
+}
+
+.blog-page .blog-post h1 {
+  margin-top: 0;
+  color: #000;
+}
+
+.blog-page .blog-post-link {
+  text-decoration: none;
+}
+
+.entrada-blog {
+  margin-bottom: 10px;
+}
+
+.imagen-entrada-blog {
+  width: 100%;
+  height: 191px;
+}
+
+.titulo-entrada-blog {
+  margin: 10px 0 0 0;
+}
+
+.imagen-entrada-lista {
+  width: 255px;
+  height: 191px;
+  float: left;
+  margin: 0 20px 10px 0;
+}
+
+.titulo-entrada-lista {
+  margin: 0;
+}
+
+#subir-imagen-blog {
+  color: #fff;
+}
+
+.acciones-entrada-blog {
+  width: 100%;
+  text-align: right;
+  margin-top: 10px;
+}
+
+.acciones-entrada-blog a {
+  text-decoration: none;
+}
+
+.acciones-entrada-eliminar:hover {
+  color: #a94442;
+}
+
+.pag-blog hr {
+  border-color: #ccc;
+}
+
+/* /BLOG */
+
+/* ALBERTOS */
+
+.ver_usuario {
+  padding: 10px 30px 30px 30px;
+
+}
+
+.ver_usuario li{
+
+  font-weight: bold;
+  font-size: 140%;
+}
+
+.datos_usuario{
+
+  text-align: center;
+}
+.foto_usuario{
+
+  float: right;
+
+}
+.titulo_usuario{
+
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.tabla_inmuebles{
+
+    margin-top: 30px;
+    background-color: #00444f;
+    border-radius: 40px 40px 40px 40px;
+    box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.75);
+    padding: 10px 100px 30px 30px;
+    padding-top: 30px;
+  }
+
+.tabla_inmuebles th {
+    color: #fff;
+    padding: 20px 90px 90px 30px;
+    /*padding-top: 20px;*/
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-family: verdana;
+}
+
+.foto_casa {
+  height: 200px;
+  width: auto;
+  padding: 10px 30px 30px 30px;
+  /*border-radius: 40px 40px 40px 40px;*/
+}
+
+.titulo {
+  padding: 10px 30px 30px 30px;
+  color: #fff;
+  text-decoration:none;
+  font-family: verdana;
+}
+
+.admin-usuarios .titulo-pagina, .admin-inmuebles .titulo-pagina {
+  margin-top: 0px;
+}
+
+.admin-usuarios .contenido-main, .admin-inmuebles .contenido-main {
+  margin-bottom: 50px;
+}
+
+.img-admin-inmuebles {
+  width: 200px;
+}
